@@ -1,0 +1,1 @@
+web: guvicorn --worker-tmp-dir /dev/shm --config guvicorn.config main:app
