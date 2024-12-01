@@ -1,1 +1,1 @@
-web: gunicorn --worker-tmp-dir /dev/shm --config guvicorn.config main:app
+web: gunicorn --worker-tmp-dir /dev/shm --config guvicorn.config app.main:app
